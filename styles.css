@@ -75,8 +75,7 @@ summary {
     border-radius: 4px;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+a {
+    color: #007bff;
+    font-size: 18px;
 }
