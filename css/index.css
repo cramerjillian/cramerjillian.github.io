@@ -1,8 +1,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color:#ffffff;
-    background: repeating-conic-gradient(#add5ff 0 25%, #0000 0 50%) 50% / 80px 80px;
+    background-color:#f4f4f4;
+    background: repeating-conic-gradient(#add5ff 0 25%, #f8f6f0 0 50%) 50% / 80px 80px;
     color: #007bff;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@ hr {
 img {
     border-radius: 50%;
     filter: blur(0.5px);
-    border: 20px solid #ffffff;
+    border: 20px solid #f4f4f4;
 
 }
 
@@ -55,7 +55,7 @@ img:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     padding: 1em;
     width: 40%;
     border: 15px solid #add5ff;
