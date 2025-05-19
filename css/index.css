@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#ffffff;
+    background: repeating-conic-gradient(#add5ff 0 25%, #0000 0 50%) 50% / 80px 80px;
+    color: #007bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: min(6vw, 40px);
+    margin: 0;
+}
+
+h2 {
+    font-size: min(3.5vw, 30px);
+    margin: 0;
+}
+
+a {
+    color:#007bff;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#007bff;
+    text-decoration: none;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #add5ff;
+}
+
+img {
+    border-radius: 50%;
+    filter: blur(0.5px);
+    border: 20px solid #ffffff;
+
+}
+
+img:hover {
+    border: 20px solid #007bff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1em;
+    width: 40%;
+    border: 15px solid #add5ff;
+    filter: drop-shadow(#007bff 0.5rem 0.5rem);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.small-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0.5em;
+    width: 80%;
+    border: 15px solid #add5ff;
+    filter: drop-shadow(#007bff 0.4rem 0.4rem);
+}
+
+.small-container:hover {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.small-container:hover > * {
+  color: #ffffff;
+}
+
+/* DESKTOP */
+
+@media (min-width: 1024px) {
+    nav {
+        flex-direction: row;
+    }
+}
