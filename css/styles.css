@@ -1,12 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f4f4f4;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #4b4b4b;
+    background-color:#e7f8f8;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 }
 
 h1, h2 {
-    color: #007bff;
+    color: #4b4b4b;
 }
 
 .header {
@@ -33,7 +33,7 @@ h1, h2 {
     font-size: 14px;
 }
 .contact a {
-    color: #007bff;
+    color: #4b4b4b;
     text-decoration: none;
 }
 .section {
@@ -41,7 +41,7 @@ h1, h2 {
 }
 .section h2 {
     margin-bottom: 10px;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #4b4b4b;
     padding-bottom: 5px;
 }
 .item {
@@ -70,7 +70,7 @@ summary {
 }
 .skills ul li {
     display: inline-block;
-    background: #007bff;
+    background: #4b4b4b;
     color: #fff;
     padding: 5px 10px;
     margin: 5px 5px 5px 0;
@@ -78,7 +78,7 @@ summary {
 }
 
 a {
-    color: #007bff;
+    color: #4b4b4b;
     font-size: 18px;
 }
 
